@@ -53,7 +53,7 @@ export const projects = [
         description: "Offline-first Android toolkit with batch compression , PDF generation and format conversion with support of Android widget and Matirial You theming.",
         link: "https://play.google.com/store/apps/details?id=com.meet.imagecompressor&pcampaignid=web_share", // Play Store Link Placeholder
         icon: "Image",
-        image: "public/assets/alien-invasion-banner.png",
+        image: "public/alien-invasion-banner.png",
     },
     {
         title: "OpenSlot",
@@ -75,7 +75,7 @@ export const projects = [
         description: "A comprehensive financial management application with machine learning capabilities for bill scanning, spending analysis, and transaction predictions.",
         link: "https://github.com/hetbhalani/ML-Based-Personal-Finance-Optimizer",
         icon: "Gamepad2",
-        image: "public/assets/personal-finance-banner.png",
+        image: "public/personal-finance-banner.png",
     },
     {
         title: "Alien Invasion Game",
@@ -83,7 +83,7 @@ export const projects = [
         description: "Dynamic 2D arcade shooter with difficulty scaling.",
         link: "https://github.com/padhiarmeet/Alien-Invasion",
         icon: "Gamepad2",
-        image: "public/assets/alien-invasion-banner.png",
+        image: "public/alien-invasion-banner.png",
     },
     {
         title: "Movie-Tracker-widget",
@@ -91,7 +91,7 @@ export const projects = [
         description: "A modern, neobrutalist-styled Flutter application for tracking movie releases with a customizable Android home screen widget.",
         link: "https://github.com/padhiarmeet/Movie-Tracker-widget", // Play Store Link Placeholder
         icon: "Image",
-        image: "public/assets/movie-tracker-banner.png",
+        image: "public/movie-tracker-banner.png",
     }
 ];
 
