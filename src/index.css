@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Sora', 'Inter', system-ui, sans-serif;
+  @apply bg-creme text-dark transition-colors duration-300;
+}
+
+/* Font utilities */
+.font-heading {
+  font-family: 'Outfit', 'Sora', sans-serif;
+}
+
+.font-body {
+  font-family: 'Sora', 'Inter', sans-serif;
+}
+
+/* Dark Mode Overrides */
+.dark body {
+  @apply bg-void-black text-white;
+}
+
+/* Grid Background */
+/* Grid Background with Subtle Gradient */
+.bg-grid {
+  background-size: 60px 60px, 60px 60px, 100% 100%, 100% 100%;
+  background-repeat: repeat, repeat, no-repeat, no-repeat;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    radial-gradient(circle at 90% 10%, rgba(255, 228, 230, 0.8) 0%, transparent 40%),
+    radial-gradient(circle at 10% 90%, rgba(243, 232, 255, 0.8) 0%, transparent 40%);
+}
+
+.dark .bg-grid {
+  background-size: 60px 60px, 60px 60px, 100% 100%, 100% 100%;
+  background-repeat: repeat, repeat, no-repeat, no-repeat;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    radial-gradient(circle at 90% 10%, rgba(46, 16, 101, 0.3) 0%, transparent 40%),
+    radial-gradient(circle at 10% 90%, rgba(15, 23, 42, 0.3) 0%, transparent 40%);
+}
+
+/* Hollow Text Effect */
+.text-hollow {
+  -webkit-text-stroke: 1px #171717;
+  color: transparent;
+}
+
+.text-hollow-sm {
+  -webkit-text-stroke: 1px #171717;
+  color: transparent;
+}
+
+.dark .text-hollow {
+  -webkit-text-stroke: 1px white;
+}
+
+.dark .text-hollow-sm {
+  -webkit-text-stroke: 1px white;
+}
+
+/* Gradient Text for "Decoding logic" */
+.gradient-text-alt {
+  background: linear-gradient(90deg, #ffffff, #ff00ff, #ffa500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400/50 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-600/50;
+}
+
+/* Glassmorphism Utility */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.dark .glass {
+  background: rgba(30, 41, 59, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-hover:hover {
+  background: rgba(255, 255, 255, 0.9);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.dark .glass-hover:hover {
+  background: rgba(30, 41, 59, 0.85);
+  border-color: rgba(59, 130, 246, 0.3);
+}
