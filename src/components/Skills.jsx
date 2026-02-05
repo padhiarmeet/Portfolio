@@ -53,6 +53,7 @@ const Skills = () => {
                 { name: "GitHub" },
                 { name: "Postman" },
                 { name: "Git" },
+                { name: "Docker" },
                 { name: "Android Studio" },
                 { name: "VS Code" }
             ]
