@@ -57,14 +57,14 @@ export const projects = [
     },
     {
         title: "OpenSlot",
-        tech: ["Next.js", "Spring boot", "Hybernet", "PostgreSQL",],
+        tech: ["Next.js", "Spring boot", "hibernate", "PostgreSQL",],
         description: "A centralized platform that streamlines campus logistics by digitizing facility booking (labs/halls), asset tracking, and maintenance requests for staff and students.",
         link: "https://github.com/padhiarmeet/Resource-Management", // Play Store Link Placeholder
         icon: "Image",
     },
     {
         title: "Real-Time Chat App",
-        tech: ["Flutter", "Firebase", "Firebase Auth", "Bloc"],
+        tech: ["Flutter", "Firebase", "Firebase Auth", "BloC"],
         description: "Secure 1:1 messaging with sub-second sync, media sharing, notifications, and online/offline status support.",
         link: "https://github.com/padhiarmeet/Chat-Application",
         icon: "MessageCircle",
