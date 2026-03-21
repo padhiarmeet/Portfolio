@@ -59,8 +59,9 @@ export const projects = [
         title: "OpenSlot",
         tech: ["Next.js", "Spring boot", "hibernate", "PostgreSQL",],
         description: "A centralized platform that streamlines campus logistics by digitizing facility booking (labs/halls), asset tracking, and maintenance requests for staff and students.",
-        link: "https://github.com/padhiarmeet/Resource-Management", // Play Store Link Placeholder
+        link: "https://github.com/padhiarmeet/Resource-Management",
         icon: "Image",
+        image: "/openSlotGraphic.png",
     },
     {
         title: "Real-Time Chat App",
