@@ -87,10 +87,10 @@ export const projects = [
         image: "/alien-invasion-banner.png",
     },
     {
-        title: "Movie-Tracker-widget",
+        title: "Absolute Cinema",
         tech: ["Dart", "Flutter", "Android"],
         description: "A modern, neobrutalist-styled Flutter application for tracking movie releases with a customizable Android home screen widget.",
-        link: "https://github.com/padhiarmeet/Movie-Tracker-widget", // Play Store Link Placeholder
+        link: "https://github.com/padhiarmeet/Absolute-Cinema",
         icon: "Image",
         image: "/movie-tracker-banner.png",
     }
