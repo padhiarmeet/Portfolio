@@ -64,6 +64,14 @@ export const projects = [
         image: "/Empower.png",
     },
     {
+        title: "Absolute Cinema",
+        tech: ["Dart", "Flutter", "Android"],
+        description: "A modern, neobrutalist-styled Flutter application for tracking movie releases with a customizable Android home screen widget.",
+        link: "https://github.com/padhiarmeet/Absolute-Cinema",
+        icon: "Image",
+        image: "/movie-tracker-banner.png",
+    },
+    {
         title: "Real-Time Chat App",
         tech: ["Flutter", "Firebase", "Firebase Auth", "BloC"],
         description: "Secure 1:1 messaging with sub-second sync, media sharing, notifications, and online/offline status support.",
@@ -85,15 +93,7 @@ export const projects = [
         link: "https://github.com/padhiarmeet/Alien-Invasion",
         icon: "Gamepad2",
         image: "/alien-invasion-banner.png",
-    },
-    {
-        title: "Absolute Cinema",
-        tech: ["Dart", "Flutter", "Android"],
-        description: "A modern, neobrutalist-styled Flutter application for tracking movie releases with a customizable Android home screen widget.",
-        link: "https://github.com/padhiarmeet/Absolute-Cinema",
-        icon: "Image",
-        image: "/movie-tracker-banner.png",
-    }
+    }, 
 ];
 
 export const experience = [
