@@ -84,7 +84,7 @@ const Contact = () => {
                     className="text-center"
                 >
                     <motion.a
-                        href="https://drive.google.com/file/d/1SRCnadZzXCxrquD_txoMPclksBp0ZDmp/view?usp=drive_link"
+                        href="https://drive.google.com/file/d/1xdU9PPcIrQBzyQh8xAe13t8ZM-D8OEPC/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-electric-500 to-accent-500 rounded-xl font-semibold text-zinc-900 dark:text-white btn-glow"
