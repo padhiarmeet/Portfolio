@@ -87,9 +87,9 @@ const Contact = () => {
                         href="https://drive.google.com/file/d/1xdU9PPcIrQBzyQh8xAe13t8ZM-D8OEPC/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-3 px-8 py-4 bg-dark text-creme dark:bg-white dark:text-dark rounded-full font-semibold border border-green-500/40 shadow-[0_0_20px_rgba(34,197,94,0.15)] hover:shadow-[0_0_30px_rgba(34,197,94,0.25)] transition-shadow duration-300"
-                        whileHover={{ scale: 1.03, y: -2 }}
-                        whileTap={{ scale: 0.97 }}
+                        className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-electric-500 to-accent-500 rounded-xl font-semibold text-zinc-900 dark:text-white btn-glow"
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
                     >
                         <Download size={20} />
                         Download Resume

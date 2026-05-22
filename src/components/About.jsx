@@ -7,7 +7,7 @@ const About = () => {
     const stats = [
         {
             title: "LeetCode",
-            value: "140+ Problems",
+            value: "150+ Problems",
             sub: "DSA & Algorithms",
             icon: Code2,
             gradient: "from-yellow-500/40 to-orange-500/40 dark:from-yellow-600/50 dark:to-orange-600/50"
