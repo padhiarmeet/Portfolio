@@ -100,9 +100,9 @@ export const experience = [
     {
         title: "Flutter Teaching Assistant",
         company: "Darshan University",
-        period: "2025 - Present",
+        period: "2025 - 2026",
         details: [
-            "Mentored 120+ undergraduates in mobile development, conducting daily code reviews and enforcing best practices in Flutter, Dart, and State Management.",
+            "Mentored 200+ undergraduates in mobile development, conducting daily code reviews and enforcing best practices in Flutter, Dart, and State Management.",
             "Debugged complex runtime errors and logic issues in student projects, sharpening own skills in troubleshooting and asynchronous programming.",
         ],
     },
